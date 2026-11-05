@@ -1,5 +1,5 @@
 // one place for every backend call
-const BASE_URL = '/api';
+const BASE_URL = import.meta.env.VITE_API_URL || '/api';
 const TOKEN_KEY = 'stockflow_token';
 const USER_KEY = 'stockflow_user';
 
